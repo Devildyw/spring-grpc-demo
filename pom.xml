@@ -5,6 +5,8 @@
     <packaging>pom</packaging>
     <modules>
         <module>grpc-api</module>
+        <module>grpc-provider</module>
+        <module>grpc-consumer</module>
     </modules>
     <parent>
         <groupId>org.springframework.boot</groupId>
