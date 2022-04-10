@@ -1,0 +1,7 @@
+server:
+  port: 8081
+grpc:
+  client:
+    GLOBAL:
+      address: static://localhost:8090
+      negotiation-type: PLAINTEXT
